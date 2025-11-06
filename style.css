@@ -1,0 +1,17 @@
+
+button {
+  background-color: #28a745;   /* Verde brillante */
+  color: white;                /* Letras blancas */
+  border: none;                /* Sin borde */
+  border-radius: 8px;          /* Bordes redondeados */
+  padding: 10px 20px;          /* Espaciado interno (vertical, horizontal) */
+  font-size: 1rem;             /* Tamaño de letra normal */
+  cursor: pointer;             /* Cambia el cursor al pasar por encima */
+  margin: 5px;                 /* Espacio entre botones */
+  transition: background-color 0.3s ease; /* Efecto suave al pasar el mouse */
+}
+
+
+button:hover {
+  background-color: #218838; /* Verde un poco más oscuro */
+}
